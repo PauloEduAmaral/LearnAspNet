@@ -243,12 +243,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CidadeMetadado.cs" />
     <Compile Include="Models\Cidades.cs">
       <DependentUpon>ModeloDeDados.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\EspecialidadeMetadado.cs" />
     <Compile Include="Models\Especialidades.cs">
       <DependentUpon>ModeloDeDados.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\MedicoMetadado.cs" />
     <Compile Include="Models\Medicos.cs">
       <DependentUpon>ModeloDeDados.tt</DependentUpon>
     </Compile>
@@ -267,6 +270,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModeloDeDados.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\UsuarioMetadado.cs" />
     <Compile Include="Models\Usuarios.cs">
       <DependentUpon>ModeloDeDados.tt</DependentUpon>
     </Compile>
