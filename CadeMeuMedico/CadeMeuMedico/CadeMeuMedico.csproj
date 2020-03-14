@@ -287,6 +287,9 @@
     <Content Include="Views\Medicos\Index.cshtml" />
     <Content Include="Views\Medicos\Adicionar.cshtml" />
     <Content Include="Views\Medicos\Editar.cshtml" />
+    <Content Include="Views\Especialidades\Index.cshtml" />
+    <Content Include="Views\Especialidades\Adicionar.cshtml" />
+    <Content Include="Views\Especialidades\Editar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -296,7 +299,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Especialidades\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
